@@ -1,7 +1,9 @@
 {
-  "User": {},
-  "Post": {},
-  "Comment": {},
-  "Person": {},
-  "City": {}
+  "ModelName": {
+    "fieldName": {
+      "<type>": {} | [],
+      "hasMany": "Model",
+      "belongsTo": "Model"
+    }
+  }
 }
