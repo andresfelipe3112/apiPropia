@@ -1,6 +1,7 @@
 {
   "User": {
     "key": { "int": { "min": 0, "max": 1000000 } },
+    "isComplete": { "boolean": {} } },
      "name": {
         "string": [
           "Camilo",
