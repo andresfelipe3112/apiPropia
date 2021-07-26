@@ -1,6 +1,6 @@
 {
-  "Post": {
-    "idtitle": { "likes": { "int": { "min": 0, "max": 1000000 } } ,
+  "User": {
+    "idtitle": { "int": { "min": 0, "max": 1000000 } },
     "comments": {
       "hasMany": "Comment"
     }
