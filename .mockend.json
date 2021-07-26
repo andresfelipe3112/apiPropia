@@ -1,9 +1,15 @@
 {
-  "ModelName": {
-    "fieldName": {
-      "<type>": {} ,
-      "hasMany": "Model",
-      "belongsTo": "Model"
-    }
-  }
+  "User": {
+    "key": { "int": { "min": 0, "max": 1000000 } },
+     "name": {
+        "string": [
+          "Camilo",
+            "Nicolas",
+            "Claudia",
+            " Marcela"
+                   ]
+              }
+
+ 
+        }
 }
